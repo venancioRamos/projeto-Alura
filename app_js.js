@@ -7,7 +7,7 @@ tentativas = 1
 
 
 function gerarNumerosAleatorios() {
-    let numeroEscolhido = parseInt(Math.random()*4 +1)
+    let numeroEscolhido = parseInt(Math.random()*100 +1)
     if (listaNumerosSorteados.length == 4) {
         listaNumerosSorteados = []
     }
